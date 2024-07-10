@@ -37,6 +37,10 @@
     opacity: 0.7;
 }
 
+.margin-24{
+    margin-top: 24px;
+}
+
 /* Navbar styles */
 header .nav-container{
     display: flex;
@@ -250,3 +254,24 @@ header .nav-container{
     width: 206.4px;
     height: 187.32px;
 }
+
+/* Inspiration styles */
+.inspiration{
+    
+}
+
+.inspiration .iframe-container{
+    margin-top: 48px;
+    margin-bottom: 151px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
+    padding: 32px;
+}
+
+.inspiration .iframe-container iframe{
+    margin: auto;
+    border-radius: 16px;
+}
+
+/* Current Styles */
