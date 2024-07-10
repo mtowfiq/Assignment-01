@@ -9,7 +9,33 @@
   font-style: normal;
 }
 
+.main-style{
+    max-width: 1147px;
+    margin: 0px auto;
+}
+
 /* Shared styles */
+
+.title{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.subtitle{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.7;
+}
 
 /* Navbar styles */
 header .nav-container{
@@ -103,4 +129,124 @@ header .nav-container{
     letter-spacing: 0%;
     text-align: center;
     margin: 32px 0px;
+}
+
+/* Reason styles */
+.reason{
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.02);
+}
+.reason-padding{
+    padding: 86px 104px;
+}
+
+.reason-single{
+    display: flex;
+    justify-content: space-between;
+    gap: 107px;
+    padding: 48px;
+    align-items: center;
+    border-radius: 16px;
+    background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+}
+
+.reason-heading{
+    color: rgba(13, 19, 33, 0.7);
+    font-family: Azeret Mono;
+    font-size: 25.7px;
+    font-weight: 700;
+    line-height: 38.5px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin: 16px 0px;
+    width: 417px;
+    height: 77px;
+}
+
+.reason-description{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 17.1px;
+    font-weight: 400;
+    line-height: 27.8px;
+    letter-spacing: 0%;
+    text-align: left;
+    opacity: 0.7;
+    margin: 16px 0px;
+    width: 500.8px;
+    height: 55.6px;
+}
+
+.reason-btn{
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+    padding: 12px 20px 12px 20px;
+
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 21.4px;
+    font-weight: 600;
+    line-height: 24.6px;
+    letter-spacing: 0%;
+    text-align: center;
+    width: 183px;
+    height: 50.2px;
+}
+
+.reason-heading2{
+    color: rgba(13, 19, 33, 0.7);
+    font-family: Azeret Mono;
+    font-size: 25.7px;
+    font-weight: 700;
+    line-height: 38.5px;
+    letter-spacing: 0%;
+    text-align: left;
+    width: 510.4px;
+    height: 77px;
+    margin: 16px 0px;
+}
+
+.reason-description2{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 17.1px;
+    font-weight: 400;
+    line-height: 27.8px;
+    letter-spacing: 0%;
+    text-align: left;
+    opacity: 0.7;
+    width: 500.8px;
+    height: 55.6px;
+    margin: 16px 0px;
+}
+
+.reason-btn2{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 21.4px;
+    font-weight: 600;
+    line-height: 24.6px;
+    letter-spacing: 0%;
+    text-align: center;
+    padding: 12px 20px 12px 20px;
+}
+
+.reason-desc-margin{
+    margin: 28px 0px 48px 0px;
+}
+
+.img-reason{
+    width: 259.56px;
+    height: 217.01px;
+}
+
+.img-reason2{
+    width: 223.2px;
+    height: 208.85px;
+}
+
+.img-reason3{
+    width: 206.4px;
+    height: 187.32px;
 }
