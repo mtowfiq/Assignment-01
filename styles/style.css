@@ -41,6 +41,10 @@
     margin-top: 24px;
 }
 
+.margin-48-btm{
+    margin-bottom: 48px;
+}
+
 /* Navbar styles */
 header .nav-container{
     display: flex;
@@ -256,9 +260,7 @@ header .nav-container{
 }
 
 /* Inspiration styles */
-.inspiration{
-    
-}
+
 
 .inspiration .iframe-container{
     margin-top: 48px;
@@ -288,6 +290,7 @@ header .nav-container{
     justify-content: space-between;
     margin-top: 48px;
     gap: 24px;
+    margin-bottom: 111px;
 }
 
 .bg-card1{
@@ -354,4 +357,208 @@ header .nav-container{
     margin: 24px 0px;
     width: 303.9px;
     height: 20.3px;
+}
+
+/* Next/Skill styles */
+.skills-container{
+    margin-top: 48px;
+    margin-bottom: 49px;
+}
+.skill{
+    display: flex;
+    padding: 40px;
+    gap: 24px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    margin-bottom: 24px;
+    /* justify-content: center; */
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.skill-heading{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 25.7px;
+    font-weight: 800;
+    line-height: 38.5px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin: 8px 0px;
+    width: 117.7px;
+    height: 38.5px;
+}
+
+.skill-text{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 17.1px;
+    font-weight: 400;
+    line-height: 27.8px;
+    letter-spacing: 0%;
+    text-align: left;
+    opacity: 0.7;
+    margin: 8px 0px;
+    width: 1007.1px;
+    height: 55.6px;
+}
+
+.skill-anchor{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 17.1px;
+    font-weight: 700;
+    line-height: 20.3px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-decoration-line: underline;
+    margin: 24px 0px;
+    width: 1007.1px;
+    height: 20.3px;
+}
+
+.skill-img1{
+    width: 101.4px;
+    height: 90.3px;
+}
+
+.skill-img2{
+    width: 153.3px;
+    height: 93.9px;
+}
+
+.skill-img3{
+    width: 108px;
+    height: 108px;
+}
+
+/* Support styles */
+.support{
+    background-image: url(../assets/handshake.jpg);
+    background-size: cover;
+    height: 335px;
+    padding: 64px 48px 64px 48px;
+    border-radius: 16px;
+    background: rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),url(Email);
+    margin-bottom: 80px;
+}
+
+.support-heading{
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 34.2px;
+    font-weight: 700;
+    line-height: 38.5px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin: 16px 0px;
+    width: 312.4px; 
+    height: 38.5px;
+}
+
+.support-text{
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 17.1px;
+    font-weight: 400;
+    line-height: 27.8px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.7;
+    margin: 16px 0px;
+    width: 648.4px; 
+    height: 55.6px; 
+}
+
+.form-text{
+    color: rgba(13, 19, 33, 0.4);
+    font-family: Azeret Mono;
+    font-size: 17.1px;
+    font-weight: 400;
+    line-height: 20.3px;
+    letter-spacing: 0%;
+    /* text-align: center; */
+    padding: 19px 20px 19px 20px;
+
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+
+    background: rgb(255, 255, 255);
+    /* margin: 0px 16px; */
+    width: 586.4px;
+    height: 61px;
+    margin-top: 70px;
+}
+
+.form-submit{
+    border-radius: 8px;
+
+    background: rgb(255, 255, 255);
+    margin: 0px 16px;
+    padding: 17px 20px 17px 20px;
+    width: 128.4px;
+    height: 61px;
+
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 21.4px;
+    font-weight: 600;
+    line-height: 24.6px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-top: 70px;
+}
+
+.support-banner{
+    width: 781.1px;
+    height: 111.3px;
+    text-align: center; 
+    margin: 0 auto; 
+}
+
+.support-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 24px;
+}
+
+/* Footer styles */
+footer{
+    padding: 32px 150px 32px 150px;
+    width: 1536px;
+    height: 80px;
+    border-radius: 16px;
+    top: 5145px;
+    background: rgba(13, 19, 33, 0.03);
+}
+
+.footer-info{
+    display: flex;
+    /* justify-content: space-around; */
+    align-items: center;
+    gap: 563px;
+}
+
+.footer-text{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 21.4px;
+    font-weight: 600;
+    line-height: 24.6px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin: 0px 16px;
+    width: 487.9px;
+    height: 24.6px;
+}
+
+.footer-img{
+    /* background: linear-gradient(180.00deg, rgb(0, 178, 255) -0.911%,rgb(0, 106, 255) 104.264%); */
+    width: 38.5px;
+    height: 38.5px;
+    margin-right: 64.2;
 }
